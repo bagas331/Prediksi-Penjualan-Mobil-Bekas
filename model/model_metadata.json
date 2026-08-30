@@ -1,0 +1,123 @@
+{
+  "metrics": {
+    "r2": 0.9451,
+    "mae": 11800164.91,
+    "rmse": 18565647.04,
+    "mape": 9.79
+  },
+  "brand_model_map": {
+    "Honda": [
+      "Amaze",
+      "Jazz",
+      "WR-V",
+      "City"
+    ],
+    "Hyundai": [
+      "Grand i10",
+      "Verna",
+      "Venue",
+      "i20",
+      "Creta",
+      "i10"
+    ],
+    "Kia": [
+      "Sonet",
+      "Carens",
+      "Seltos"
+    ],
+    "Mahindra": [
+      "Bolero",
+      "XUV500",
+      "Thar",
+      "XUV700",
+      "Scorpio"
+    ],
+    "Maruti": [
+      "Baleno",
+      "Dzire",
+      "Wagon R",
+      "Ertiga",
+      "Celerio",
+      "Swift",
+      "Brezza"
+    ],
+    "Renault": [
+      "Triber",
+      "Kwid",
+      "Duster"
+    ],
+    "Skoda": [
+      "Rapid",
+      "Kushaq",
+      "Slavia",
+      "Octavia"
+    ],
+    "Tata": [
+      "Tiago",
+      "Safari",
+      "Nexon",
+      "Punch",
+      "Harrier",
+      "Altroz"
+    ],
+    "Toyota": [
+      "Glanza",
+      "Urban Cruiser",
+      "Fortuner",
+      "Innova"
+    ],
+    "Volkswagen": [
+      "Polo",
+      "Taigun",
+      "Virtus",
+      "Vento"
+    ]
+  },
+  "numerical_features": [
+    "Year",
+    "KM_Driven",
+    "Owner",
+    "Engine_CC",
+    "Mileage_KMPL",
+    "Max_Power_BHP",
+    "Seats",
+    "Vehicle_Age",
+    "KM_Per_Year",
+    "Power_per_CC"
+  ],
+  "categorical_features": [
+    "Brand",
+    "Model",
+    "Fuel_Type",
+    "Transmission",
+    "Seller_Type"
+  ],
+  "fuel_types": [
+    "CNG",
+    "Diesel",
+    "Electric",
+    "Petrol"
+  ],
+  "transmissions": [
+    "Automatic",
+    "Manual"
+  ],
+  "seller_types": [
+    "Dealer",
+    "Individual"
+  ],
+  "seats_options": [
+    5,
+    7
+  ],
+  "year_range": [
+    2014,
+    2025
+  ],
+  "owner_range": [
+    1,
+    3
+  ],
+  "dataset_size": 5000,
+  "n_features_after_encoding": 74
+}
